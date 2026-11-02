@@ -1,0 +1,15 @@
+{
+  "name": "cinematica-dinamica-robots-slides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:cinematica-intro": "slidev cinematica/00-introduccion.md",
+    "build:cinematica-intro": "slidev build cinematica/00-introduccion.md --base /cinematica-dinamica-robots/slides/cinematica/introduccion/ --out dist/cinematica/introduccion",
+    "build": "pnpm build:cinematica-intro"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.19.1",
+    "@slidev/theme-default": "^0.25.0",
+    "vue": "^3.5.33"
+  }
+}
