@@ -1,7 +1,7 @@
 ---
 theme: default
 addons:
-  - ../addons/shared
+  - ./addons/shared
 title: Cinemática de robots — Introducción
 ---
 
