@@ -18,10 +18,10 @@ Las presentaciones ubicadas en `slides/cinematica/` o `slides/dinamica/` habilit
 ---
 theme: default
 addons:
-  - ../addons/shared
+  - ./addons/shared
 ---
 ```
 
-La ruta es relativa al directorio de la presentación. Si se modifica la profundidad de carpetas, ajustarla.
+La ruta se resuelve respecto al directorio de trabajo de Slidev (`slides/`), desde el que se ejecutan los scripts de `package.json`.
 
 Se adapta la implementación de los componentes originales del repositorio `analisis-de-mecanismos`.
