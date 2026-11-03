@@ -1,5 +1,7 @@
 ---
 theme: default
+addons:
+  - ../addons/shared
 title: Cinemática de robots — Introducción
 ---
 
@@ -29,3 +31,34 @@ La cinemática describe el movimiento de un robot sin considerar las fuerzas o l
 | Posiciones, velocidades y aceleraciones | Inercia, fuerzas y pares |
 
 <small>Presentación de infraestructura. Contenido docente pendiente de desarrollo.</small>
+
+---
+
+layout: two-cols-example
+---
+
+# Recursos compartidos
+
+<Callout type="tip" title="Componentes reutilizables">
+
+Esta nota utiliza el componente compartido `Callout`.
+
+</Callout>
+
+<EquationBox title="Transformación homogénea">
+
+$$
+T = \begin{bmatrix} R & p \\ 0 & 1 \end{bmatrix}
+$$
+
+</EquationBox>
+
+::right::
+
+## Para diferentes presentaciones
+
+- Cinemática
+- Dinámica
+- Distintas asignaturas
+
+<Footnote align="right">Diapositiva de validación de componentes y layout.</Footnote>
