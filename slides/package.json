@@ -5,7 +5,21 @@
   "scripts": {
     "dev:cinematica-intro": "slidev cinematica/00-introduccion.md",
     "build:cinematica-intro": "slidev build cinematica/00-introduccion.md --base /cinematica-dinamica-robots/slides/cinematica/introduccion/ --out dist/cinematica/introduccion",
-    "build": "pnpm build:cinematica-intro"
+    "build": "pnpm build:cinematica-intro && pnpm build:preliminares-algebra-lineal && pnpm build:preliminares-metodos-numericos && pnpm build:cinematica-directa && pnpm build:cinematica-inversa && pnpm build:cinematica-diferencial && pnpm build:dinamica-euler-lagrange && pnpm build:dinamica-newton-euler",
+    "dev:preliminares-algebra-lineal": "slidev preliminares-matematicos/algebra-lineal.md",
+    "build:preliminares-algebra-lineal": "slidev build preliminares-matematicos/algebra-lineal.md --base /cinematica-dinamica-robots/slides/preliminares-matematicos/algebra-lineal/ --out dist/preliminares-matematicos/algebra-lineal",
+    "dev:preliminares-metodos-numericos": "slidev preliminares-matematicos/metodos-numericos.md",
+    "build:preliminares-metodos-numericos": "slidev build preliminares-matematicos/metodos-numericos.md --base /cinematica-dinamica-robots/slides/preliminares-matematicos/metodos-numericos/ --out dist/preliminares-matematicos/metodos-numericos",
+    "dev:cinematica-directa": "slidev cinematica/cinematica-directa.md",
+    "build:cinematica-directa": "slidev build cinematica/cinematica-directa.md --base /cinematica-dinamica-robots/slides/cinematica/cinematica-directa/ --out dist/cinematica/cinematica-directa",
+    "dev:cinematica-inversa": "slidev cinematica/cinematica-inversa.md",
+    "build:cinematica-inversa": "slidev build cinematica/cinematica-inversa.md --base /cinematica-dinamica-robots/slides/cinematica/cinematica-inversa/ --out dist/cinematica/cinematica-inversa",
+    "dev:cinematica-diferencial": "slidev cinematica/cinematica-diferencial.md",
+    "build:cinematica-diferencial": "slidev build cinematica/cinematica-diferencial.md --base /cinematica-dinamica-robots/slides/cinematica/cinematica-diferencial/ --out dist/cinematica/cinematica-diferencial",
+    "dev:dinamica-euler-lagrange": "slidev dinamica/euler-lagrange.md",
+    "build:dinamica-euler-lagrange": "slidev build dinamica/euler-lagrange.md --base /cinematica-dinamica-robots/slides/dinamica/euler-lagrange/ --out dist/dinamica/euler-lagrange",
+    "dev:dinamica-newton-euler": "slidev dinamica/newton-euler.md",
+    "build:dinamica-newton-euler": "slidev build dinamica/newton-euler.md --base /cinematica-dinamica-robots/slides/dinamica/newton-euler/ --out dist/dinamica/newton-euler"
   },
   "dependencies": {
     "@slidev/cli": "^52.19.1",
