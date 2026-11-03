@@ -1,0 +1,6 @@
+{
+  "name": "slidev-addon-robotica-shared",
+  "version": "0.0.0",
+  "private": true,
+  "keywords": ["slidev", "slidev-addon"]
+}
